@@ -1,0 +1,112 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Buscar usuário",
+    "line": 1,
+    "id": "buscar-usuário",
+    "tags": [],
+    "uri": "SearchUser.feature",
+    "elements": [
+      {
+        "id": "buscar-usuário;realizar-busca-por-usuário-válido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Realizar busca por usuário válido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "eu acesso a home da aplicação",
+            "result": {
+              "status": "passed",
+              "duration": 3140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "realizo uma busca pelo usuário Soonlorcross",
+            "result": {
+              "status": "passed",
+              "duration": 418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "eu deverei ser redirecionado para a tela de detalhes de invocador",
+            "result": {
+              "status": "passed",
+              "duration": 460000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "o meu nome de invocador deverá ser exibido",
+            "result": {
+              "status": "passed",
+              "duration": 1451000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "buscar-usuário;realizar-busca-por-usuário-não-existente",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Realizar Busca por usuário não existente",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "eu acesso a home da aplicação",
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "realizo uma busca pelo usuário spomfdpsomfpsdo",
+            "result": {
+              "status": "passed",
+              "duration": 494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "eu deverei continuar na tela inicial",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "o campo de busca deverá exibir uma borda vermelha",
+            "result": {
+              "status": "passed",
+              "duration": 496000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

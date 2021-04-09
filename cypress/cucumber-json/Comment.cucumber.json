@@ -1,0 +1,51 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Adicionar comentário para invocador",
+    "line": 1,
+    "id": "adicionar-comentário-para-invocador",
+    "tags": [],
+    "uri": "Comment.feature",
+    "elements": [
+      {
+        "id": "adicionar-comentário-para-invocador;adicionar-comentário-para-um-usuário",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Adicionar comentário para um usuário",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "eu busquei pelo jogador Soonlorcross",
+            "result": {
+              "status": "failed",
+              "duration": 53000000,
+              "error_message": "ReferenceError: callback is not defined\n    at Context.eval (https://riotfrontend.herokuapp.com/__cypress/tests?p=cypress/integration/Comment.feature:196:3)\n    at Context.resolveAndRunStepDefinition (https://riotfrontend.herokuapp.com/__cypress/tests?p=cypress/integration/Comment.feature:10664:9)\n    at Context.eval (https://riotfrontend.herokuapp.com/__cypress/tests?p=cypress/integration/Comment.feature:10005:35)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "eu adiciono um comentário",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "o comentário deverá ser exibido",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
